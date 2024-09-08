@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Educational Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <!-- Horizontal Navigation Bar -->
+    <header>
+        <nav class="top-nav">
+            <div class="logo">
+                <img src="logo1.png.jpg" alt="Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#signup">Sign Up</a></li>
+                <li><a href="#signin">Sign In</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Full-Width Slider Section -->
+    <section id="home" class="full-width-slider">
+        <div class="slides-container">
+            <div class="slide" style="background-color: #3498db;">JavaScript</div>
+            <div class="slide" style="background-color: #2ecc71;">Python</div>
+            <div class="slide" style="background-color: #e74c3c;">Java</div>
+        </div>
+    </section>
+
+    <!-- Grid-Based Sections -->
+    <main class="grid-container">
+        <!-- About Section -->
+        <section id="about" class="grid-item about-section">
+            <h2>About Us</h2>
+            <p>We offer a diverse range of educational courses to enhance your skills in technology, science, and more. Our mission is to provide high-quality learning experiences for everyone.</p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="grid-item contact-section">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <label for="contactEmail">Email:</label>
+                <input type="email" id="contactEmail" name="email" required>
+                <label for="contactMessage">Message:</label>
+                <textarea id="contactMessage" name="message" required></textarea>
+                <button type="submit">Send</button>
+                <p id="responseMessage"></p>
+            </form>
+        </section>
+
+        <!-- Signup Section -->
+        <section id="signup" class="grid-item form-section">
+            <h2>Sign Up</h2>
+            <form id="signupForm">
+                <label for="signupName">Name:</label>
+                <input type="text" id="signupName" name="name" required>
+                <label for="signupEmail">Email:</label>
+                <input type="email" id="signupEmail" name="email" required>
+                <label for="signupPassword">Password:</label>
+                <input type="password" id="signupPassword" name="password" required>
+                <button type="submit">Sign Up</button>
+                <p id="signupResponseMessage"></p>
+            </form>
+        </section>
+
+        <!-- Signin Section -->
+        <section id="signin" class="grid-item form-section">
+            <h2>Sign In</h2>
+            <form id="signinForm">
+                <label for="signinEmail">Email:</label>
+                <input type="email" id="signinEmail" name="email" required>
+                <label for="signinPassword">Password:</label>
+                <input type="password" id="signinPassword" name="password" required>
+                <button type="submit">Sign In</button>
+                <p id="signinResponseMessage"></p>
+            </form>
+        </section>
+    </main>
+
+    <!-- Masonry Photo Section -->
+    <section class="photo-section">
+        <h2>Gallery</h2>
+        <div class="photo-grid">
+            <img src="image1.jpeg" class="photo" alt="Photo 1">
+            <img src="image2.jpg" class="photo" alt="Photo 2">
+            <img src="image3.jpeg" class="photo" alt="Photo 3">
+            <img src="image4.jpeg" class="photo" alt="Photo 4">
+        </div>
+    </section>
+</body>
+</html>
