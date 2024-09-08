@@ -20,13 +20,15 @@ Website Screenshots
 
 Home Page with About, Contact, Sign Up, and Sign In Forms:
 
-<!-- Replace with the actual path in your repository -->
+https://github.com/user-attachments/assets/32097ddf-1889-41d4-958a-db92b1617c46
 
 Homepage with JavaScript Header:
 
-<!-- Replace with the actual path in your repository -->
+https://github.com/user-attachments/assets/e0ba0378-6a28-45e2-86b3-34f4c6033e31
 
 -->Future Improvements
 Add more interactive features for the user.
 Integrate backend functionality for authentication.
 Enhance the design with responsive layouts for mobile devices.
+![Output-2](https://github.com/user-attachments/assets/32097ddf-1889-41d4-958a-db92b1617c46)
+![output-1](https://github.com/user-attachments/assets/e0ba0378-6a28-45e2-86b3-34f4c6033e31)
